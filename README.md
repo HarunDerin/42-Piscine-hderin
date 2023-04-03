@@ -1,2 +1,2 @@
-# 42-piscine-for-HarunD
+# 42-piscine-hderin
 42 deki çalışmalarımı güvene almak için
