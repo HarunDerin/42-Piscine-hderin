@@ -1,0 +1,44 @@
+ex01= groups $FT_USER | tr ' ' ',' | tr -d '\n'  FT_USER= işlem yapmak istedğimiz kullanıcı
+                                                 tr ' ' ','= ft_user değişkenindeki boşlukları virgüle dönüştürür
+                                                 tr -d '\n = çıktıyı tek satırda göstericek şekilde boşlukları siler
+
+
+ex02= find . -type f -name '*.sh' -execdir basename {} .sh ';'  Bu komut, bulunduğu dizin ve alt dizinlerde ".sh" dosyalarını arayarak, bu dosyaların isimlerinden ".sh" uzantısını kaldırarak dosya isimlerini döndürür.
+                                                                -name '*.sh'= .sh ile biten dosyaları bulur
+                                                                basename {} .sh = ise dosyanın adını alarak .sh kısmını siler
+                                                                ; = execdir komutunun ssonlandığını belirtir
+
+ex03= find . -type f -o -type d | wc -l | sed 's: ::g'  Bu komut, bulunduğu dizin ve alt dizinlerindeki dosya ve dizinlerin toplam sayısını bulmak 
+                                                        -type f -o -type d = tüm dosya ve dizinleri bulmak için
+                                                        |= find komutunun devam ettiği anlamına gelir
+                                                        wc -l= komutu, çıktıdaki satır sayısını bulur
+                                                        sed 's: ::g' = wc komutununn çıktısındaki satırlardan boşluk çıkarır
+ex04= ifconfig | grep "ether" | awk '{print $2}' mac adresini sade biçimde gösterir
+                                                 ifconfig = ağ yapılandırmalarını gösterir
+                                                 grep "ether" = ipconfig çıktısında ether başlıklarını arar
+                                                 awk '{print $2} = bu başlıklardan 2. stundaki mac adresini almamıza yapılandırmalarını
+
+ex05= "\?$*'MaRViN'*$?\" normalde touch komutu ile dosya oluştururuz ancak özel karakterlerle oluşturmak için 
+                         her karakter arasına "/" koymamız gerekir bu dosyayı ancak böyle oluşturabiliriz
+                         içinde de default 42 yazar 
+
+ex06= ls -l | awk 'NR % 2 == 1' bu komut normal ls -l den farklı olarak daha ayrıntılı bir listeleme sağlar
+                                awk 'NR % 2 == 1' =burada NR değişkeni awk'nin işlediği satır numarasını temsil eder % ise satır numarasının ikiye
+                                bölümünden kalan tek ise satırı yazdırır
+                                yani komut çıktısı sadece dizindeki dosyaların her ikinci satırını içeren bir dizedir.
+
+ex07= cat /etc/passwd | grep -v "#" | sed -n 'n;p' | cut -f 1 -d : | rev | sort -r | sed -n "$FT_LINE1,$FT_LINE2 p" | tr '\n' ',' | sed 's:,:, :g' | sed 's:, $:.:' | tr -d '\n'
+ 
+buradaki cat /etc/passwd = kullanıcı hesap bilgilerini gösterir
+grep -v "#" = cat çıktısındaki # ile başlayan yorum satırlarını çıkarır
+sed -n 'n;p' = n komutu her satırı atlar p ise yazdırır
+cut -f 1 -d = kullanıcı adlarını karakter ile ayırır
+rev = satırdaki karakteri ters çeviri
+sort -r = satırları tersten listeler
+sed -n "$FT_LINE1,$FT_LINE2 p" = değişkenler tarafından belirlenen satırı yazar
+tr '\n' ',' = satır sonlarını virgülle değiştirir
+sed 's:,:, :g' = virgülleri boşlukla değiştirir
+sed 's:, $:.:' = son karakkteri virgül olan satırları nokta ile değiştirir
+tr -d '\n' = tüm satır sonlarını kaldırır
+
+\"\\\?\$\*\'\M\a\R\V\i\N\'\*\$\?\\\"\
