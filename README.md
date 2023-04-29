@@ -1,8 +1,8 @@
 
 # 42 Istanbul
 
-42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda tanıştığım 42'ye nisan havuzunu başarıyla geçerek devam ettim. Artık ana 
-eğitimde olduğum için burayı salıyorum...
+42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda ilk testlerden sonra 14 Nisan cuma günü Havuz(eleme) kısmını tamamladım.
+Artık ana eğitime kabul aldığım için bu repo üzerine güncelleme olmayacaktır.
 
 
 ## Proje Durumu
