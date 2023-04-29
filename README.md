@@ -5,9 +5,9 @@
 eğitimde olduğum için burayı salıyorum...
 
 
-## Renk Referansı
+## Proje Durumu
 
-| Renk             | Hex                                                                |
+| Proje             | Notu                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | C00 | 92 - ㅤ✅ |
 | C01 | 100 -ㅤ✅ |
