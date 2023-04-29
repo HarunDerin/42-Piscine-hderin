@@ -1,8 +1,8 @@
 
 # 42 Istanbul
 
-42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda tanıştığım 42'yi nisan havuzunu başarıyla geçerek devam ettim. Artık ana 
-eğitimde olduğum burayı salıyorum...
+42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda tanıştığım 42'ye nisan havuzunu başarıyla geçerek devam ettim. Artık ana 
+eğitimde olduğum için burayı salıyorum...
 
 
 ## Renk Referansı
