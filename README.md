@@ -1,8 +1,8 @@
 
 # 42 Istanbul
 
-42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda ilk testini geçtiğim 42 istanbul'a nisan havuzunu başarıyla tamamlayarak ana eğitimini kazandım. Ve devam edeceğim...
-
+42 Havuz sürecinde yazdığımız projeleri koruma altına almak için açtığım repom. Kasımda tanıştığım 42'yi nisan havuzunu başarıyla geçerek devam ettim. Artık ana 
+eğitimde olduğum burayı salıyorum...
 
 
 ## Renk Referansı
