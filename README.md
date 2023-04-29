@@ -28,10 +28,3 @@ eğitimde olduğum için burayı salıyorum...
 | FinalExam | 25 -ㅤ❌ | 
 
 ![Logo](https://imgur.com/FSpAvsG.png)
-
-    
-## Ek Olarak
-
-Kodlar kopyalamanız yada çalmanız için paylaşılmamıştır...
-
-  
